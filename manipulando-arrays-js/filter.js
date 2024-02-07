@@ -12,6 +12,9 @@ const lista = [
 
 const filtrarPessoa = pessoa => pessoa.idade > 30
 
+// const filtrarPessoa = pessoa => pessoa.nome === 'Fernanda'
+
+
 const listaFiltrada = lista.filter(filtrarPessoa)
 
 console.log(
